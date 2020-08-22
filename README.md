@@ -31,6 +31,8 @@ Requirements
 
 
 ### Installation
+Cek [video installation →](https://www.youtube.com/watch?v=gdGQSnh84ho)
+
 Download symfony bootstrap blogs cms, Use NPM/Git Run command on NPM/Git
 
 or
