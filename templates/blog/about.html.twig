@@ -1,0 +1,12 @@
+<div class="section about p-5">
+
+        <p>
+Symfony bootstrap modern blogging platform by <a href="https://mesinkasironline.web.app" target="blank">mesinkasironline.web.app</a>
+        </p>
+
+</div>
+
+{# it's not mandatory to set the timezone in localizeddate(). This is done to
+   avoid errors when the 'intl' PHP extension is not available and the application
+   is forced to use the limited "intl polyfill", which only supports UTC and GMT #}
+<!-- Fragment rendered on {{ 'now'|format_datetime('long', 'long', '', 'UTC') }} -->
