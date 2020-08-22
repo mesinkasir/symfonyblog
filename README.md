@@ -39,6 +39,8 @@ or
 
 git clone https://github.com/mesinkasir/symfonyblog.git
 
+
+Run comand on git / npm
 composer install && symfony serve
 
 open web server localhost:8000
