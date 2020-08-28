@@ -9,7 +9,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>{% block title %}Symfony Bootstrap By mesinkasironline.web.app{% endblock %}</title>
-        <link rel="alternate" type="application/rss+xml" title="{{ 'rss.title'|trans }}" href="{{ path('blog_rss') }}">
+	<meta name="description" content="Simple bloging platform with markdown using symfony framework for blogger"/>
+	<link rel="alternate" type="application/rss+xml" title="{{ 'rss.title'|trans }}" href="{{ path('blog_rss') }}">
 
         <!--{% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
