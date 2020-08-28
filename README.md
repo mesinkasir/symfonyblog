@@ -61,6 +61,7 @@ and then change on index.php files
 require dirname(__DIR__).'/yourproject/vendor/autoload.php';
 
 (new Dotenv())->bootEnv(dirname(__DIR__).'/yourproject/.env');
+
 and open or accsess your symfony blog
 
 
