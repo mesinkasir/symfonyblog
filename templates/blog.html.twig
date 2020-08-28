@@ -11,9 +11,9 @@
         <title>{% block title %} Symfony Blog List{% endblock %}</title>
         <link rel="alternate" type="application/rss+xml" title="{{ 'rss.title'|trans }}" href="{{ path('blog_rss') }}">
 
-        <!--{% block stylesheets %}
+{% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
-        {% endblock %}-->
+        {% endblock %}
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
