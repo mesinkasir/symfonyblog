@@ -19,7 +19,7 @@
             <div class="well">
                 <form action="{{ path('security_login') }}" method="post">
                     <fieldset>
-                        <legend><i class="fa fa-lock" aria-hidden="true"></i> {{ 'title.login'|trans }}</legend>
+                        <legend>{{ 'title.login'|trans }}</legend>
                         <div class="form-group">
                             <label for="username">{{ 'label.username'|trans }}</label>
                             <input type="text" id="username" name="_username" value="{{ last_username }}" class="form-control"/>
@@ -30,8 +30,8 @@
                         </div>
                         <input type="hidden" name="_target_path" value="{{ app.request.get('redirect_to') }}"/>
                         <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}"/>
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fa fa-sign-in" aria-hidden="true"></i> {{ 'action.sign_in'|trans }}
+                        <button type="submit" class="btn btn-dark btn-lg">
+                             {{ 'action.sign_in'|trans }}
                         </button>
                     </fieldset>
                 </form>
@@ -44,45 +44,12 @@
                 {{ 'help.login_users'|trans }}
             </h3>
 
-            <table class="table table-striped table-bordered table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col">{{ 'label.username'|trans }}</th>
-                        <th scope="col">{{ 'label.password'|trans }}</th>
-                        <th scope="col">{{ 'label.role'|trans }}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>john_user</td>
-                        <td>kitten</td>
-                        <td><code>ROLE_USER</code> ({{ 'help.role_user'|trans }})</td>
-                    </tr>
-                    <tr>
-                        <td>jane_admin</td>
-                        <td>kitten</td>
-                        <td><code>ROLE_ADMIN</code> ({{ 'help.role_admin'|trans }})</td>
-                    </tr>
-                </tbody>
-            </table>
+         <p>
+		 <img class="img-fluid" src="https://symfonycms.sourceforge.io/symfony_black_02.png"/>
+		 Username : admin / Password : admin
+		 </p>
 
-            <div id="login-users-help" class="panel panel-default">
-                <div class="panel-body">
-                    <p>
-                        <span class="label label-success">{{ 'note'|trans }}</span>
-                        {{ 'help.reload_fixtures'|trans }}<br/>
-
-                        <code class="console">$ php bin/console doctrine:fixtures:load</code>
-                    </p>
-
-                    <p>
-                        <span class="label label-success">{{ 'tip'|trans }}</span>
-                        {{ 'help.add_user'|trans }}<br/>
-
-                        <code class="console">$ php bin/console app:add-user</code>
-                    </p>
-                </div>
-            </div>
+          
         </div>
     </div>
 {% endblock %}
