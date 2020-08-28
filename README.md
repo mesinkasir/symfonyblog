@@ -50,13 +50,18 @@ For admin just open on login admin,for frontend just visit blogs.
 ### Install on shared hosting or localhost/xampp/htdocs 
 
 Download or clone it, extract on localhost/xampp/htdocs or public_html on shared host
+
 run composer install
+
 open localhost:/symfonyblog/public
 
 or you can copy and paste all public folder to symfonyblog folder
 and then change on index.php files
+
 require dirname(__DIR__).'/yourproject/vendor/autoload.php';
+
 (new Dotenv())->bootEnv(dirname(__DIR__).'/yourproject/.env');
 and open or accsess your symfony blog
+
 
 Happy blogging
