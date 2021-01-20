@@ -1,37 +1,68 @@
-## Welcome to GitHub Pages
+# Symfony Bootstrap Blogs
 
-You can use the [editor on GitHub](https://github.com/mesinkasir/symfonyblog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Modern web blog using symfonys and bootstrap framework
 
-### Markdown
+![Symfony blog](https://github.com/mesinkasir/symfonyblog/raw/master/public/Screenshot_2020-08-22%20Symfony%20Bootstrap%20By%20mesinkasironline%20web%20app(2).png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Fresh and clean design for blogging platform
 
-# Header 1
-## Header 2
-### Header 3
+![Symfony blog](https://github.com/mesinkasir/symfonyblog/raw/master/public/Screenshot_2020-08-22%20Symfony%20Bootstrap%20By%20mesinkasironline%20web%20app(6).png)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Multi language support
 
-**Bold** and _Italic_ and `Code` text
+![Symfony blog](https://github.com/mesinkasir/symfonyblog/raw/master/public/Screenshot_2020-08-22%20Symfony%20Bootstrap%20By%20mesinkasironline%20web%20app(3).png)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Markdown support
 
-### Jekyll Themes
+![Symfony blog](https://github.com/mesinkasir/symfonyblog/raw/master/public/Screenshot_2020-08-22%20Symfony%20Bootstrap%20By%20mesinkasironline%20web%20app(5).png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mesinkasir/symfonyblog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Symfony Demo Blog with bootstrap
+Develope [syfmony](https://github.com/symfony/symfony) [simple blog](https://github.com/symfony/demo) with [bootstrap](https://github.com/twbs/bootstrap)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Requirements 
+* NPM / Git
+* Composer
+* [Symfony](https://symfony.com/download)
+
+
+### Installation
+Cek [video installation →](https://www.youtube.com/watch?v=gdGQSnh84ho)
+
+Download symfony bootstrap blogs cms, Use NPM/Git Run command on NPM/Git
+
+or
+
+git clone https://github.com/mesinkasir/symfonyblog.git
+
+
+Run comand on git / npm
+composer install && symfony serve
+
+open web server localhost:8000
+
+For admin just open on login admin,for frontend just visit blogs.
+
+### Install on shared hosting or localhost/xampp/htdocs 
+
+Download or clone it, extract on localhost/xampp/htdocs or public_html on shared host
+
+run composer install
+
+open localhost:/symfonyblog/public
+
+or you can copy and paste all public folder to symfonyblog folder
+and then change on index.php files
+
+require dirname(__DIR__).'/yourproject/vendor/autoload.php';
+
+(new Dotenv())->bootEnv(dirname(__DIR__).'/yourproject/.env');
+
+and open or accsess your symfony blog
+
+
+Happy blogging
