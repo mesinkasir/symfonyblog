@@ -1,6 +1,8 @@
 # Symfony Bootstrap Blogs
 
 
+[Documentation and installation click here](https://www.hockeycomputindo.com/2020/08/new-blog-cms-symfony-blog-simple-for.html)
+
 ## Modern web blog using symfonys and bootstrap framework
 
 ![Symfony blog](/public/Screenshot_2020-08-22%20Symfony%20Bootstrap%20By%20mesinkasironline%20web%20app(2).png)
@@ -64,5 +66,6 @@ require dirname(__DIR__).'/yourproject/vendor/autoload.php';
 
 and open or accsess your symfony blog
 
+[Documentation and installation click here](https://www.hockeycomputindo.com/2020/08/new-blog-cms-symfony-blog-simple-for.html)
 
 Happy blogging
